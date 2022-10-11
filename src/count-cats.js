@@ -19,6 +19,20 @@ function countCats(/* matrix */) {
   // remove line with error and write your code here
 }
 
+function countCats(arr) {
+  let num = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr[i].length; j++) {
+      if (arr[i][j] == '^^') {
+        num +=1;
+      }
+    }
+  } 
+  return num;
+};
+
+
 module.exports = {
   countCats
 };
