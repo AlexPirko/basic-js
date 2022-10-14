@@ -19,7 +19,14 @@ const { NotImplementedError } = require('../extensions/index.js');
  * reverseMachine.decrypt('AEIHQX SX DLLU!', 'alphonse') => '!NWAD TA KCATTA'
  * 
  */
- 
+class VigenereCipheringMachine {
+  encrypt() {
+    
+  }
+  decrypt() {
+
+  }
+}
 
 module.exports = {
   VigenereCipheringMachine
